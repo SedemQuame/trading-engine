@@ -4,17 +4,13 @@ body {
 }
 
 .main-container {
-    width: 100%;
+    width: 40%;
     height: 0px;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 0%;
     color: aliceblue;
-}
-
-.main-sub-container {
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
     text-align: center;
 }
 
@@ -23,7 +19,6 @@ body {
     margin-right: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 40%;
     height: 50px;
     font-size: 18pt;
     line-height: 50px;
@@ -32,14 +27,11 @@ body {
 }
 
 .form-items {
-    margin-left: auto;
-    margin-right: auto;
     border-top-style: solid;
     border-top-color: rgb(6, 6, 38);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 40%;
-    background-color: rgb(141, 141, 155);
+    background-color: rgb(10, 10, 63);
 }
 
 .form-items form {
@@ -51,8 +43,8 @@ body {
 input {
     width: 250px;
     height: 40px;
-    background-color: rgb(189, 189, 206);
-    color: rgb(17, 17, 17);
+    background-color: rgb(30, 30, 72);
+    color: rgb(202, 202, 223);
     border-style: none;
     border-radius: 10px;
     text-indent: 10px;
@@ -77,7 +69,7 @@ button {
     border-style: none;
     border-radius: 10px;
     text-indent: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     outline-style: none;
     font-size: 13pt;
 }
@@ -86,14 +78,38 @@ button:hover {
     background-color: rgb(238, 102, 12);
 }
 
-.register-link {
+.link {
     padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
     font-size: 10pt;
 }
 
-.register-link span a {
+.link span a {
     text-decoration: none;
     color: rgb(238, 129, 12);
+}
+
+.warning {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(216, 126, 126);
+    color: rgb(119, 0, 0);
+    font-size: 11pt;
+    width: 260px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.success {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(138, 209, 144);
+    color: rgb(2, 77, 27);
+    font-size: 11pt;
+    width: 260px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
 }
